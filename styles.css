@@ -1,0 +1,96 @@
+@font-face {
+    font-family: allFont;
+    src: url("https://lnsister.github.io/-/allFont.ttf");
+}
+body {
+    margin: 0;
+}
+* {
+    font-family: allFont;
+	background-color: #f6f8fa
+	
+}
+#top {
+    
+    
+    
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 2px;
+}
+#logo {
+    width: 80px;
+    height: 80px;
+}
+article {
+    margin: 10px;
+   /* border: 1px solid;*/
+}
+p {
+    /*border: 1px solid;*/
+    margin: 0;
+    text-indent: 2em;
+    letter-spacing: 2px;
+    line-height: 1.7;
+    margin-bottom: 5px 
+	}
+a {
+    color: Blue;
+	border-bottom: 1px dashed;
+}
+/*div {
+    border: 1px solid;
+}*/
+.life {
+    background-color: Black;
+    color: White;
+	margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+div.contentLine {
+    min-height: 50px;
+    border-left: 3px solid Black;
+	margin-left: 28px;
+
+}
+ .card {
+   border: 1px solid;
+   margin: 30px;
+   padding: 10px;
+   text-align: center;
+   background-color: White;
+   border-radius: 10px;
+   
+ }
+ #hr {
+   height: 2px;
+   background-color: Black;
+   margin: 30px;
+ }
+ div.cardColor {
+   background-color: White;
+ }
+ .h1 {
+   display: block;
+   background-color: White;
+   font-size: 25px;
+   letter-spacing: 1px;
+   margin-bottom: 5px;
+ }
+ .h2 {
+   background-color: White;
+   letter-spacing: 2px;
+ }
+ button {
+   height: 40px;
+   width: 250px;
+   background-color: #b7e9ff;
+   border-radius: 5px;
+   border: none;
+   font-size: 25px;
+   letter-spacing: 10px;
+ }
+ .last {
+   text-align: center;
+ }
